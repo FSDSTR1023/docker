@@ -1,6 +1,6 @@
 # DOCKER
 
-### Comandos Dockerfile
+## COMANDOS DOCKERFILE
 
 ```
 FROM    #Establece la imagen base para la construcción. Es el primer comando en cualquier Dockerfile y define de qué imagen se parte.
@@ -21,7 +21,7 @@ STOPSIGNAL  # Establece la señal del sistema que se enviará al contenedor para
 ```
 
 
-### USO DEL DOCKERFILE
+## USO DEL DOCKERFILE
 
 1. Construir la imagen a partir del Dockerfile:
 
@@ -38,7 +38,8 @@ STOPSIGNAL  # Establece la señal del sistema que se enviará al contenedor para
 
 ```docker run -it ubuntu /bin/bash```
 
-### COMANDOS 
+
+## COMANDOS DOCKER
 
 `docker pull` --> descarga imagen de Dockerhub
 
